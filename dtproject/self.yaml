@@ -1,0 +1,7 @@
+name: "lx-recipe-dd24-sensors-camera"
+maintainer:
+    name: "Duckietown"
+    email: "info@duckietown.com"
+description: "Recipe for the DD24 Camera Sensors Learning Experience (ROS2 Jazzy)"
+version: 0.0.0
+icon: cube
