@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.4
 # parameters
-ARG EXERCISE_NAME="dd24-sensors-camera-lx-solution"
+ARG EXERCISE_NAME="lx-dd-sensors-camera-solution"
 ARG DESCRIPTION="DD24 Camera Sensors Learning Experience"
 ARG MAINTAINER="Duckietown"
 
