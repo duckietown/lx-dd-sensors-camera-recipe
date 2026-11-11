@@ -14,12 +14,7 @@ dt-launchfile-init
 # set module's health
 dt-set-module-healthy
 
-# source ROS2 workspace
-source /opt/ros/${ROS2_DISTRO}/setup.bash
-source ${COLCON_WS}/install/setup.bash --extend
-
-# launch camera reader node
-dt-exec ros2 launch solution camera_reader_node.launch.py
+# this LX runs no node of its own: its activities run in the notebooks
 
 # ----------------------------------------------------------------------------
 # YOUR CODE ABOVE THIS LINE
