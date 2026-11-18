@@ -38,6 +38,9 @@ ARG REPO_PATH="${SOURCE_DIR}/${EXERCISE_NAME}"
 RUN mkdir -p "${REPO_PATH}"
 WORKDIR "${REPO_PATH}"
 
+# make code-server open the LX folder by default
+ENV VSCODE_PATH="${REPO_PATH}"
+
 # install apt dependencies
 COPY --from=recipe ./dependencies-apt.vscode.txt "/tmp/"
 RUN dt-apt-install /tmp/dependencies-apt.vscode.txt
